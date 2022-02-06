@@ -1,0 +1,26 @@
+.primary-nav-trigger .menu-icon{
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 39px;
+    height: 2px;
+    background-color: black;
+}
+.primary-nav-trigger .menu-icon::before, .primary-nav-trigger .menu-icon::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+.primary-nav-trigger .menu-icon::before{
+    content: '';
+    top: -9px;
+    width: 100%;
+    height: 100%;
+}
+.primary-nav-trigger .menu-icon::after{
+    content: '';
+    top: 9px;
+    width: 100%;
+    height: 100%;
+}

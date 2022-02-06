@@ -1,0 +1,149 @@
+.topheader{
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    background: #a3765d;
+    height: 140px;
+}
+body{
+    color: black;
+}
+.head-white-content{
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+
+}
+.head-white-content span{
+
+}
+.head-white-content p{
+    padding: 20px 90px 0px;
+    color: black;
+}
+.aboutus{
+    margin-bottom: 90px;
+}
+.advant{
+    text-align: center;
+    width: 100%;
+    background: #a3765d;
+    padding: 30px;
+    margin: 3% 0px;
+}
+.advant span{
+    font-size: 60px;
+    color: #3d1818;
+}
+.advant h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.25%;
+    color: black;
+    padding: 25px 0px 13px;
+}
+.advant p{
+    color: black;
+    font-size: 16px;
+    line-height: 100%;
+}
+.somefuture{
+    background-color: #3d1818;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+    display: block;
+}
+.head_black_content{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.head_black_content span{
+    display: inline-block;
+    width: 80px;
+    height: 12px;
+    margin: 25px auto 0;
+    background: white;
+}
+.numeral>div>span{
+    font-size: 60px;
+    color: #a3765d;
+}
+.numeral>div>p{
+    color: white;
+    font-size: 16px;
+    line-height: 100%;
+}
+.numeral>div>h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: 0.25%;
+    color: white;
+    padding: 25px 0px 13px;
+}
+@font-face {
+    font-family: 'bignoodletitling';
+    src: url('fonts/big_noodle_titling_oblique.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo{
+    display: block;
+    position: absolute;
+    bottom: auto;
+}
+.logo>a>img{
+    margin-top: -10px;
+    padding-right: 10px;
+    height: 90px;
+}
+.logo>a{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: white;
+}
+.banner{
+    background: url("venv/домм.jpg") #a3765d;
+    background-blend-mode: multiply, normal;
+    font-family: 'bignoodletitling';
+    display: flex;
+    color: #a3765d;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+.banner h2{
+    font-size: 3rem;
+}
+.banner p{
+    font-size: 2rem;
+}
+.scrolldown{
+    position: absolute;
+    left: calc(50%-52px);
+    margin-top: 15%;
+}
+.scrolldown img{
+    margin-bottom: 20px;
+}
+.srolldown p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
