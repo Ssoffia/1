@@ -86,7 +86,7 @@ body{
 }
 @font-face {
     font-family: 'bignoodletitling';
-    src: url('fonts/big_noodle_titling_oblique.ttf');
+    src: url('big_noodle_titling_oblique.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -108,7 +108,7 @@ body{
     color: white;
 }
 .banner{
-    background: url("venv/домм.jpg") #a3765d;
+    background: url("домм.jpg") #a3765d;
     background-blend-mode: multiply, normal;
     font-family: 'bignoodletitling';
     display: flex;
