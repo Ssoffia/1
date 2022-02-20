@@ -6,7 +6,7 @@
     height: 140px;
 }
 body{
-    color: black;
+    color: white;
 }
 .head-white-content{
     display: inline-block;
@@ -67,6 +67,61 @@ body{
     margin: 25px auto 0;
     background: white;
 }
+.price{
+    background-color: #3d1818;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+    display: block;
+}
+.additional_info{
+padding: 20px;
+}
+.price-content-head{
+background: #2b1111;
+color: #ffffff;
+padding: 40px 0 30px;
+font-family: "Segou UI", sans-serif;
+}
+.price-content-head h4{
+padding-top: 6px;
+font-size: 24px;
+}
+.price-content-head h5{
+padding-top: 6px;
+font-size: 20px;
+}
+.price-content-head p{
+padding-top: 0 25px;
+font-size: 14px;
+margin-top: 25px;
+}
+.price-content-body{
+background: #3d1818;
+color: #ffffff;
+padding: 45px 0 40px;
+letter-spacing: 1px;
+font-weight: 300;
+}
+.price-content-body p{
+font-size: 14px;
+padding-bottom: 20px;
+color: #ffffff;
+}
+.price-content-body p span{
+font-size: 15px;
+font-weight: 700;
+color: #ffffff;
+margin-right: 2px;
+letter-spacing: 2px;
+}
+.price-content-body a{
+background: #a3765d;
+color: #ffffff;
+border-radius: 5px;
+font-weight: 700;
+padding: 10px 30px;
+}
 .numeral>div>span{
     font-size: 60px;
     color: #a3765d;
@@ -108,7 +163,7 @@ body{
     color: white;
 }
 .banner{
-    background: url("домм.jpg") #a3765d;
+    background: url('домм.jpg') #a3765d;
     background-blend-mode: multiply, normal;
     font-family: 'bignoodletitling';
     display: flex;
@@ -146,4 +201,10 @@ h3 {
 h4 {
     text-transform: uppercase;
     font-size: 36px;
+}
+.price-content:hover{
+border: 1px solid #a3765d;
+}
+.price-content:hover .price-content-body>p>span{
+color: #a3765d;
 }
