@@ -6,7 +6,7 @@
     height: 140px;
 }
 body{
-    color: white;
+    color: black;
 }
 .head-white-content{
     display: inline-block;
@@ -207,4 +207,50 @@ border: 1px solid #a3765d;
 }
 .price-content:hover .price-content-body>p>span{
 color: #a3765d;
+}
+.team{
+padding-bottom: 90px;
+}
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+position: absolute;
+border: 50px;
+width: 100%;
+left: -34%;
+}
+.sinner1{
+padding: 9% 5%;
+text-align: center;
+background: #a3765d;
+min-height: 440;
+}
+.sinner1 img{
+margin: auto;
+}
+.sinner1 a img{
+display: inherit;
+width: 20%;
+}
+.sinner1 h4{
+margin-top: 10px;
+font-size: 20px;
+}
+.sinner2{
+padding: 9% 5%;
+text-align: left;
+background: #a3765d;
+min-height: 440;
+}
+.sinner2 img{
+margin: auto;
+}
+.sinner2 a img{
+display: inherit;
+width: 20%;
+}
+.sinner2 h4{
+margin-top: 10px;
+font-size: 20px;
+}
+.teamslider{
+display: inline-block;
 }
