@@ -3,3 +3,9 @@ $(document).ready(function (){
         pager: true,
     });
 });
+
+$(document).ready(function (){
+    $('.bxslider_team').bxSlider({
+        pager: true,
+    });
+});
